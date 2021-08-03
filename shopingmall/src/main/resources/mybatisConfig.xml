@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 널값 허용 -->
+	<settings>
+		<setting name="jdbcTypeForNull" value="NULL"/>
+	</settings>
+  <!-- 알리아스 -->   
+  <typeAliases>
+  	<typeAlias type="org.spring.my.dto.Product" alias="Product"/>	
+	<typeAlias type="org.spring.my.dto.Grade" alias="Grade"/>	
+	<typeAlias type="org.spring.my.dto.Guest" alias="Guest"/>
+  </typeAliases>
+  
+</configuration>
